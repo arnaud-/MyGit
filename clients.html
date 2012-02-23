@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.3.6), see www.w3.org" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Document sans nom</title>
+
+  <style type="text/css">
+/*<![CDATA[*/
+  @import url(style.css);
+  <!-- 
+  html, body {
+       margin: 0;
+       padding: 0;
+       height: 100%;
+  }
+  body  {
+       font: 78% Verdana, Arial, Helvetica, sans-serif;
+       background: #fff;
+       margin: 0; /* il est conseillé de mettre à zéro la marge et le remplissage de l'élément body, pour tenir compte des différentes valeurs par défaut des navigateurs */
+       padding: 0;
+       text-align: center; /* ce paramétrage centre le conteneur dans les navigateurs IE 5.x. Le texte est ensuite aligné à gauche (valeur par défaut) dans le sélecteur #container */
+       color: #000000;
+       height:100%;/*Visualis*/
+       background-image:url(images/border2.png);
+       background-repeat:repeat-x;
+  }
+  #container {
+       /*height: 100%;*/
+       min-height: 100%;
+  }
+  .twoColFixLtHdr #container { 
+       width: 780px;  /* paramétrage de la largeur à 20 pixels de moins que le plein écran (800 pixels) pour tenir compte de l'habillage du navigateur et éviter l'apparition d'un ascenseur horizontal */
+       background: #FFFFFF url(demo/bg.png) repeat-x:no-repeat repeat-y:repeat;
+       margin: 0 auto; /* les marges automatiques (et dotées d'une largeur positive) centrent la page */
+       /*border: 1px solid #000000;*/
+       text-align: left; /* ce paramétrage annule le paramètre text-align: center de l'élément body. */
+       min-height:100%;/*Visualis*/
+       position:relative;/*Visualis*/
+  } 
+  .twoColFixLtHdr #header { 
+       /*background: #fff;*/ 
+       padding: 15px 0 0 0;  /* ce remplissage correspond à l'alignement à gauche des éléments des div qui apparaissent en dessous. Si, au lieu de texte, c'est une image qui est insérée dans l'élément #header, il est conseillé de supprimer le remplissage. */
+  } 
+  .twoColFixLtHdr #header h1 {
+       margin: 0; /* la mise à zéro de la marge du dernier élément du div #header permet d'éviter une disparition de la marge (espace inexplicable entre les éléments div). Si l'élément div est entouré d'une bordure, cette précaution n'est pas nécessaire, car la bordure évite également la disparition de la marge */
+       /*padding: 10px 0; /* l'utilisation de remplissage, au lieu d'une marge, permet d'éloigner l'élément des bords de l'élément div */
+  }
+  .twoColFixLtHdr #sidebar1 {
+       float: left; /* cet élément est flottant, il faut donc lui attribuer une largeur */
+       width: 170px; /* Dans les navigateurs conformes au standard et dans Internet Explorer en mode standard, la largeur réelle de cet élément div est composée de la largeur plus le remplissage et la bordure */
+       /*background: #fff; /* la couleur de l'arrière-plan est affichée sur la largeur du contenu de la colonne, mais pas au-delà */
+       padding: 5px 10px 15px 20px;
+       font-size:0.9em;
+       line-height: 1.5em;
+  }
+  .twoColFixLtHdr #mainContent { 
+       margin: 15px 0 0 220px; /* La marge gauche de cet élément div crée la colonne qui s'étend sur le côté gauche de la page - quel que soit le contenu de l'élément div sidebar1, l'espace de cette colonne reste intact. Vous pouvez supprimer cette marge si vous souhaitez que le texte de l'élément div #mainContent remplisse l'espace de l'élément #sidebar1 lorsque le contenu de ce dernier se termine. */
+       padding: 0 20px; /* ne pas oublier que le remplissage est l'espace à l'intérieur du cadre de l'élément div, alors que la marge est l'espace à l'extérieur de celui-ci */
+       line-height: 1.5em;
+       font-size: 90%;
+  } 
+  .twoColFixLtHdr #footer { 
+       /* padding: 0 10px 0 20px; /* ce remplissage correspond à l'alignement à gauche des éléments des div qui apparaissent au-dessus. */ /*Visualis*/
+       color: #333; 
+       font-size: 0.7em;/*Visualis*/
+       text-align:center;/*Visualis*/
+       position:absolute;/*Visualis*/
+       bottom:0;/*Visualis*/
+       width:100%;/*Visualis*/
+       height:60px;/*Visualis*/
+       left: 0;        
+  } 
+  .twoColFixLtHdr #footer p {
+       margin: 0; /* la mise à zéro de la marge du premier élément du pied de page permet d'éviter une possible disparition de la marge (espace entre les éléments div) */
+       padding: 10px 0; /* l'utilisation d'un remplissage pour cet élément crée un espace, tout comme une marge l'aurait fait, mais en évitant le risque de disparition de la marge */
+  }
+  .fltrt { /* cette classe permet de rendre flottant le côté droit d'un élément dans la page. L'élément flottant doit précéder l'élément à côté duquel il doit se trouver dans la page. */
+       float: right;
+       margin-left: 8px;
+  }
+  .fltlft { /* cette classe permet de rendre flottant le côté gauche d'un élément dans la page */
+       float: left;
+       margin-right: 8px;
+  }
+  .clearfloat { /* cette classe doit être placée pour un élément div ou break et doit être l'élément final avant la balise de fin d'un conteneur qui doit contenir entièrement un élément flottant */
+    clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+  }
+  --> 
+  /*]]>*/
+  </style><!--[if IE 5]>
+<style type="text/css"> 
+/* placer les corrections pour le modèle de boîte css pour IE 5.x dans ce commentaire conditionnel */
+.twoColFixLtHdr #sidebar1 { width: 230px; }
+</style>
+<![endif]--><!--[if IE]>
+<style type="text/css"> 
+/* placer les corrections pour toutes les version d'IE dans ce commentaire conditionnel */
+.twoColFixLtHdr #sidebar1 { padding-top: 30px; }
+.twoColFixLtHdr #mainContent { zoom: 1; }
+/* la propriété propriétaire zoom ci-dessus transmet à IE l'attribut hasLayout nécessaire pour éviter plusieurs bogues */
+</style>
+<![endif]-->
+</head>
+
+<body class="twoColFixLtHdr">
+  <div id="container">
+    <div id="header">
+      <h1><img src="images/logo.png" width="196" height="153" alt="logo" /></h1><!-- fin de #header -->
+    </div>
+
+    <div id="sidebar1">
+
+      <h3><a href="index2.html">Services</a></h3>
+
+      <h3><a href="print1a.html">Portfolio</a></h3>
+
+      <h3><a href="clients.html">Clients</a></h3>      <h3><a href="contact.html">Contact</a></h3>
+      
+    </div>
+
+    <div id="mainContent">
+      <h1>Clients</h1>
+
+      <ul>
+        <li>Croix-Rouge de Belgique</li>
+
+        <li>ULB (Université libre de Bruxelles)</li>
+
+        <li>ULG (Université de Liège)</li>
+
+        <li>Commission européenne</li>
+
+        <li>La Libre Belgique</li>
+
+        <li>Transcultures</li>
+
+        <li>SRBG (Société Royale Belge de Geographie)</li>
+
+        <li>Teatrino</li>
+
+        <li>Brocoli Théâtre</li>
+
+        <li>Point Centre</li>
+
+        <li>D:# (Design by Numbers)</li>
+
+        <li style="list-style: none">
+          <ul class="sub">
+            <li>Ertico</li>
+          </ul>
+        </li>
+
+        <li>P&amp;P</li>
+
+        <li>10fusion</li>
+
+        <li style="list-style: none">
+          <ul class="sub">
+            <li>Aéroport de Charleroi Sud</li>
+
+            <li>Ciné Télé Revue</li>
+
+            <li>Beci (Brussels Enterprises, Commerce &amp; Industry)</li>
+
+            <li>EXKI</li>
+
+            <li>Sunswitch</li>
+
+            <li>Servipark</li>
+
+            <li>Primegolf</li>
+
+            <li>AIS</li>
+          </ul>
+        </li>
+
+        <li>Train Of Thoughts</li>
+        <li>revue Télétravail<br />
+          revue &laquo;&nbsp;écritures&nbsp;&raquo;
+        </li>
+
+        <li>Orangemetalic</li>
+
+        <li style="list-style: none">
+          <ul class="sub">
+            <li>Les Jardins de Bagatelle</li>
+
+            <li>Micrographex</li>
+          </ul>
+        </li>
+      </ul><!-- fin de #mainContent -->
+    </div><!-- Cet élément de suppression doit suivre immédiatement l'élément div #mainContent afin de forcer l'élément div #container à contenir tous les éléments flottants enfants --><br class="clearfloat" />
+
+    <!--<div id="footer">
+      <p>Autorisation: 00088907/0 – T.V.A.: LU23805266 – R.C.S. Luxembourg: A38657</p><!-- fin de #footer
+    </div>-->
+    <!-- fin de #container -->
+  </div>
+</body>
+</html>
